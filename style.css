@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  /* Gaya tambahan untuk navbar */
+  .navbar {
+    background-color: #333;
+    margin: 1px;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    color: #daa83d;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-right: 20px; /* Jarak antara logo dan daftar navigasi */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    margin: 0;
+  }
+  
+  .nav-list li {
+    margin-right: 15px;
+  }
+  
+  .nav-list li:last-child {
+    margin-right: 0; /* Menghilangkan margin kanan pada elemen terakhir */
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-list li a:hover {
+    color: #daa83d;
+  }
+  
+  
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+  }
+  
+  .column {
+    flex: 0 0 calc(16% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    background-color: #daa83d;
+    border: 1px solid #121f13;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .column h2 {
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 12px; 
+  }
+  
+  .column p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 12px; 
+    margin: 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    max-height: 40px;
+    min-height: 40px;
+  }
+  
+  .konten{
+    text-align: justify;
+    font-size: small;
+  
+  }
+  
+  .gambar{
+    margin-right: 10px;
+    height: 150px;
+  
+  }
+  
+  .isikonten{
+    display: flex;
+  
+  }
+  
+  
